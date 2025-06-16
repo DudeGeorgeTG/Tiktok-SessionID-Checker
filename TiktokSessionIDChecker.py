@@ -6,6 +6,7 @@ from typing import List, Optional
 from colorama import Fore, Style
 
 
+
 class TikTokChecker:
     def __init__(self, file_path: str, threads: int):
         self.file_path = file_path
